@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario</title>
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <script src="js/funciones.js" rel="script" type="text/javascript"></script>
+    <img src="img/ups.png" alt="">
+</head>
+
+<body onload="ready()">
+    <div id="myModal" class="modal">
+        <from class="modal-content formulario" style="width: 45%;">
+            <fieldset>
+                <legend>Informacion Personal:</legend>
+           
+            <div class="modal-context">
+                <div class="row">
+                    <div class="input-field col s5">
+                        <input id="nombre" type="text" name="nombre" class="valid-two-wordsPER requeried"
+                            placeholder="Ingrese nombres" maxlength="30" onkeypress="validarTexto(event)">
+                        <label for="nombre">Nombre </label>
+                    </div>
+                    <div class="input-field col s5">
+                        <input id="apellido" type="text" class="valid-two-wordsPER requeried"
+                            placeholder="Ingrese apellidos" maxlength="30" onkeypress="validarTexto(event)">
+                        <label>Apellido </label>
+                    </div>
+                    <div class="input-field col s3">
+                        <input id="cedula" type="text" class="valid-cedulaPER requeried" placeholder="Ingrese cedula"
+                            maxlength="10" onkeypress="validarNumero(event)">
+                        <label>Cedula </label>
+                    </div>
+                    <div class="input-field col s3">
+                        <select>
+                            <option value="H"> Hombre </option>
+                            <option value="M"> Mujer </option>
+                        </select>
+                        <label>Genero </label>
+                    </div>
+                    <div class="input-field col s3">
+                        <input id="telefono" class="validatePER requeried" type="text" placeholder="Ingrese telefono"
+                            onkeypress="validarNumero(event)" maxlength="10">
+                        <label>Telefono </label>
+                    </div>
+                    <div class="input-field col s7">
+                        <input id="e-mail" class="valid-emailPER requeried" type="text"
+                            placeholder="Ingrese correo electronico">
+                        <label>Correo electronico </label>
+                    </div>
+                    <div class="input-field col s7">
+                        <input id="password" class="valid-passPER requeried" type="text"
+                            placeholder="Ingrese correo electronico">
+                        <label>Correo electronico </label>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-acctions">
+                <input type="button" class="waves-effect" onclick="save()" value="GUARDAR">
+            </div>
+    </div>
+    </div>
+</fieldset>
+</body>
+</html>

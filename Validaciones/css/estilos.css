@@ -1,0 +1,130 @@
+
+body{
+    background-color:#E5E7E9;
+}
+#formulario {
+    min-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2px;
+    padding: 10px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.09),
+    0 3px 1px -2px rgba(0, 0, 0, 0.12),
+    0 1px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+#form-acctions {
+    border-top: 1px solid rgba(0,0,0,0.09);
+    padding: 10px 10px 0 10px;
+}
+
+#form-context {
+    padding: 10px;
+}
+
+#form-title{
+    border-bottom: 1px solid rgba(0,0,0,0.09);
+    padding: 5px 10px;
+    font-family: fantasy;
+    font-size: 22px;
+    color: #3b3b3b;
+}
+
+.row {
+   margin: 5px 0;
+}
+
+.row .col{
+    padding: 5px;
+    float: left;
+}
+
+.row .col.s5 {
+    width: calc(50% - 10px);
+}
+
+.row .col.s3 {
+    width: calc(33.333333333% - 10px);
+}
+
+.row .col.s4 {
+    width: calc(40% - 10px);
+}
+
+.row .col.s6 {
+    width: calc(60% - 10px);
+}
+
+.row .col.s7 {
+    width: calc(66.66% - 10px);
+}
+
+.row .col.s10 {
+    width: calc(100% - 10px);
+}
+
+.input-field  {
+    margin-top: 10px;
+}
+
+.input-field label {
+    position: absolute;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: #3f6a84;
+    transition: all 0.3s;
+}
+
+.input-field input[type="text"] {
+    outline: none;
+    width: 100%;
+    border-style: none;
+    font-size: 13px;
+    padding: 5px 0;
+    border-bottom: 1px solid #bebebe;
+    transition: all 0.3s;
+}
+
+.input-field input[type="text"]:focus {
+    border-bottom: 1px solid #3f6a84;
+    box-shadow: 0 1px 0 0 #3f6a84;
+}
+
+.input-field input[type="text"]:focus + label {
+    font-size: 13px;
+}
+
+.input-field input[type="text"] + label, .input-field select + label {
+    transform: translateY(-40px) scale(1);
+    transform-origin: 0 0;
+}
+
+input[type="button"]{
+    padding: 6px 20px;
+    font-family: monospace;
+    font-size: 16px;
+    font-weight: 500;
+    color: #535353;
+}
+
+select {
+    cursor: pointer;
+    outline: none;
+    display: block;
+    width: 100%;
+    border-style: none;
+    font-size: 12px;
+    padding: 4px 0;
+    border-bottom: 1px solid #bebebe
+}
+
+h3  {
+    margin: 5px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
