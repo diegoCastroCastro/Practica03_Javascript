@@ -9,7 +9,6 @@ body {
 img{
     width: 500px;
     height: 500px;
-    border-block-style: solid;
 }
 
 #imagen {
@@ -21,16 +20,22 @@ img{
 #inicio{
     display: block;
     width: 200px;
-    
+    border-style: groove;
     margin: 20px auto;
     padding: 1em;
 }
 
 #siguiente{
    right: 80px;
-}*
+}
 
 h1{
     text-align: center;
 }
+/*
+input[type="button"].anterior{
+    background-color: blue;
+    border-radius: 10%;
+}
+*/
 
