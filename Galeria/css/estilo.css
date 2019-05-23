@@ -1,0 +1,36 @@
+body {
+    margin: 50px 500px;
+    align-self: center;
+    background-image: url("../images/fondo.jpg");
+    background-size: contain;
+    
+}
+
+img{
+    width: 500px;
+    height: 500px;
+    border-block-style: solid;
+}
+
+#imagen {
+
+    width: 500px;
+    height: 500px;
+}
+
+#inicio{
+    display: block;
+    width: 200px;
+    
+    margin: 20px auto;
+    padding: 1em;
+}
+
+#siguiente{
+   right: 80px;
+}*
+
+h1{
+    text-align: center;
+}
+
